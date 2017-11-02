@@ -1,0 +1,31 @@
+{
+  "name": "reduce-blank",
+  "version": "0.2.0",
+  "description": "A NPM command-line tool for reducing excessive blank characters in text files",
+  "main": "source/index.js",
+  "bin": "source/index.js",
+  "engines": {
+    "node": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechQuery/reduce-blank.git"
+  },
+  "keywords": [
+    "command-line",
+    "trim",
+    "clean-code"
+  ],
+  "author": "shiy007@qq.com",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TechQuery/reduce-blank/issues"
+  },
+  "homepage": "https://github.com/TechQuery/reduce-blank#readme",
+  "dependencies": {
+    "gitignore-parser": "0.0.2"
+  }
+}
